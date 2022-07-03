@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="script.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <ul id="ul" style="padding: 10px;background:red;">
+        <li style="background:green;">item 1</li>
+        <li style="background:green;" >item 2</li>
+    </ul>
+    <script>
+        var ulEle = document.querySelector('#ul');
+        ulEle.addEventListener('click', (e)=>{
+        console.log("this ::",this)
+        console.log("this.target.tagName ::",String(this.tagName))
+        // console.log("this.currentTarget.tagName ::",e.currentTarget.tagName)
+    })
+    </script>
+</body>
+</html>
