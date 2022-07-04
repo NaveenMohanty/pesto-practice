@@ -27,3 +27,4 @@ Object.setPrototypeOf(child, parent); // child inherits property of parent objec
 
 
 
+// for test
