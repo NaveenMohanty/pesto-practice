@@ -6,6 +6,8 @@ let sym = Symbol()
 let sym1 = Symbol.for('sym1')
 let sym12 = Symbol.for('sym1')
 
+console.log(Symbol.keyFor(sym12))
+
 let obj = {
   name: 'Naveen'
 }
@@ -23,6 +25,8 @@ console.log(obj) // cuz sym1 === sym12
 console.log(sym1 === sym12)
 
 console.log(Object.keys(obj)) // Symbols act as a weak encapsulation that hides keys from some iterators
+
+console.log(sym1 in obj)
 
 
 
