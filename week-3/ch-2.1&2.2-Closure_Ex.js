@@ -22,7 +22,7 @@ function parent() {
   child();
 }
 let x = 1;
-parent();
+// parent();
 
 // Ex:3
 let count = 0;
@@ -35,7 +35,7 @@ setTimeout(() => {
 console.log(`${count}`);
 function ex3() {}
 
-ex3();
+// ex3();
 
 // Example from 2.2 vdo
 console.log("====Example from 2.2 vdo====");
@@ -83,4 +83,4 @@ function ex6() {
   incr();
   print();
 }
-ex6();
+// ex6();
